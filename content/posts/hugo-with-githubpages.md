@@ -1,15 +1,17 @@
 ---
-title: "Hugo With Githubpages"
+title: "使用Hugo部署GithubPages"
 date: 2022-05-29T16:08:13+08:00
-draft: true
+draft: false
 ---
 
 记录一下使用Hugo生成静态博客，并通过githubPages部署的过程。
 
-这里，我们的目标是：
+这里，我的目标是：
 
 1. 使用`blog-source`作为原始的内容仓库，`<your-name>.github.io`作为实际的githubPages仓库
 2. 通过github Action将两者串联起来，原始内容提交变更时，自动触发内容生成并发布
+
+这样的好处是，可以将`blog-source`作为私有仓库，并能直接以`<your-name>.github.io`作为URL。且通过github action实现CICD，解放双手实现自动化
 
 # Hugo
 
@@ -56,6 +58,16 @@ git remote add origin <your-remove-git>
 
 # Connection
 
+创建sshKey:  `ssh-keygen -t rsa -b 4096 -C "$(git config user.email)" -f gh-pages -N ""`
+
+将私钥`gh-pages`内容复制，并在`blog-source`仓库的`Settings->Secrets->Actions`创建secret变量
+
+![img](https://github.com/peaceiris/actions-gh-pages/raw/main/images/secrets-1.jpg)
+
+将公钥`gh-pages.pub`内容复制，并作为`<your-name>.github.io`的Deploy Key，**记得勾选读写权限**
+
+![img](https://github.com/peaceiris/actions-gh-pages/raw/main/images/deploy-keys-1.jpg)
+
 创建github workflow文件`.github/workflows/gh-pages.yml`，其内容如下所示：
 
 ```yaml
@@ -90,11 +102,14 @@ jobs:
         with:
           external_repository: <your-name>/<your-name>.github.io
           publish_branch: master
+          # the secret key
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_dir: ./public
 ```
 
+完成后，在blog-source仓库提交代码并push即可触发workflow，可在仓库的Actions功能项下查看运行情况。
 
+若无意外，稍等片刻(估计是因为Github同步并非完全实时)，即可通过`<your-name>/<your-name>.github.io`访问博客了
 
 # 参考
 
