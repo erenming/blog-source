@@ -1,0 +1,29 @@
+baseURL: "https://erenming.github.io/"
+languageCode: "zh"
+title: "Erenming's Blog"
+theme: "paperMod"
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 5
+
+params:
+  ShowCodeCopyButtons: true
+  homeInfoParams:
+    Title: Hi there 👋
+    Content: Keep It Simple Stupid!
+
+  socialIcons: # optional
+    - name: "github"
+      url: "https://github.com/erenming"
+      # TODO. url: "https://github.com/jimmyjiang"
+
