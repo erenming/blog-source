@@ -11,7 +11,9 @@ draft: false
 1. 使用`blog-source`作为原始的内容仓库，`<your-name>.github.io`作为实际的githubPages仓库
 2. 通过github Action将两者串联起来，原始内容提交变更时，自动触发内容生成并发布
 
-这样的好处是，可以将`blog-source`作为私有仓库，并能直接以`<your-name>.github.io`作为URL。且通过github action实现CICD，解放双手实现自动化
+这样的好处是，可以将`blog-source`作为私有仓库，并能直接以`<your-name>.github.io`作为URL。且通过github action实现CICD，解放双手实现自动化。这里我画了一张图，便于理解：
+
+![img](https://raw.githubusercontent.com/erenming/image-pool/master/blog/flow.png)
 
 # Hugo
 
@@ -110,6 +112,10 @@ jobs:
 完成后，在blog-source仓库提交代码并push即可触发workflow，可在仓库的Actions功能项下查看运行情况。
 
 若无意外，稍等片刻(估计是因为Github同步并非完全实时)，即可通过`<your-name>/<your-name>.github.io`访问博客了
+
+# 总结
+
+综上所述，使用hugo生成静态网站，创建githubPages项目其实并不难，主要难点在于如何通过githubAction将两者链接起来，实现CICD。遇到问题，建议多多翻阅官方文档，一定是能解决的。
 
 # 参考
 
