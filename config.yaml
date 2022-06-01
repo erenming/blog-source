@@ -1,6 +1,6 @@
 baseURL: "https://erenming.github.io/"
 languageCode: "zh"
-title: "Erenming's Blog"
+title: "JimmyJiang's Blog"
 theme: "paperMod"
 
 outputs:
@@ -23,9 +23,7 @@ params:
     Content: Keep It Simple Stupid!
 
   socialIcons: # optional
-    - name: "github"
-      url: "https://github.com/erenming"
+    - name: github
+      url: https://github.com/erenming
     - name: medium
-      url: "https://medium.com/@erenming"
-    - name: cnblog
-      url: https://www.cnblogs.com/erenming/
+      url: https://medium.com/@jimmy-jiang
