@@ -25,5 +25,7 @@ params:
   socialIcons: # optional
     - name: "github"
       url: "https://github.com/erenming"
-      # TODO. url: "https://github.com/jimmyjiang"
-
+    - name: medium
+      url: "https://medium.com/@erenming"
+    - name: cnblog
+      url: https://www.cnblogs.com/erenming/

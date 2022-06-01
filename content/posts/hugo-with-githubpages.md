@@ -4,7 +4,7 @@ date: 2022-05-29T16:08:13+08:00
 draft: false
 ---
 
-记录一下使用Hugo生成静态博客，并通过githubPages部署的过程。
+记录一下使用Hugo生成静态博客，并通过githubPages自动化部署的过程。
 
 这里，我的目标是：
 
