@@ -1,7 +1,20 @@
 baseURL: "https://erenming.github.io/"
-languageCode: "zh"
-title: "JimmyJiang's Blog"
+title: "Nothing Special"
 theme: "paperMod"
+paginate: 5
+
+defaultContentLanguage: zh
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
 
 outputs:
   home:
@@ -9,25 +22,90 @@ outputs:
     - RSS
     - JSON
 
-menu:
-  main:
-    - identifier: readings
-      name: Readings
-      url: /readings/
-      weight: 1
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 2
+languages:
+  en:
+    contentDir: content/en
+    languageName: English
+    weight: 1
+
+    menu:
+      main:
+        - identifier: search
+          name: Search
+          url: /search/
+          weight: 1
+        - identifier: archives
+          name: Archives
+          url: /archives/
+          weight: 2
+        - identifier: tags
+          name: Tags
+          url: /tags/
+          weight: 3
+  zh:
+    contentDir: content/zh
+    languageName: 中文
+    weight: 2
+    menu:
+      main:
+        - identifier: search
+          name: 搜索
+          url: /search/
+          weight: 1
+        - identifier: archives
+          name: 归档
+          url: /archives/
+          weight: 2
+        - identifier: tags
+          name: 标签
+          url: /tags/
+          weight: 3
+        - identifier: readings
+          name: 书单
+          url: /readings/
+          weight: 4
+        - identifier: about
+          name: 关于
+          url: /about/
+          weight: 5
 
 params:
-  ShowCodeCopyButtons: true
+  env: production
+  author: erenming
   homeInfoParams:
     Title: Hi there 👋
     Content: Keep It Simple Stupid!
+
+  ShowReadingTime: true
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+  disableSpecial1stPost: false
+  ShowCodeCopyButtons: true
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: false
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: [ "title", "permalink", "summary", "content" ]
 
   socialIcons: # optional
     - name: github
       url: https://github.com/erenming
     - name: medium
-      url: https://medium.com/@jimmy-jiang
+      url: https://medium.com/@erenming
+    - name: email
+      url: erenming233@gmail.com
+
+taxonomies:
+  tag: tags
