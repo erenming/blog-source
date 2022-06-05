@@ -1,6 +1,8 @@
 ---
 title : "About"
 layout: "about"
+showtoc: false
+hidemeta: true
 ---
 
 嗨，我的朋友！

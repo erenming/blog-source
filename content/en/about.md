@@ -1,6 +1,8 @@
 ---
 title : "About"
 layout: "about"
+showtoc: false
+hidemeta: true
 ---
 
 Hi, my friend!

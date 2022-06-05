@@ -1,6 +1,8 @@
 ---
 title : "Readings"
 layout: "readings"
+showtoc: false
+hidemeta: true
 ---
 
 仅以记录我在读、已读、预读之书。
