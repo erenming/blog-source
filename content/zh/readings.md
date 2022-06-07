@@ -8,13 +8,17 @@ hidemeta: true
 仅以记录我在读、已读、预读之书。
 
 ### 在读
+#### 22.06-22.12
 - [ ]《知识变现》：技术人还是看看，学习下如何提升影响力
+- [ ]《Observability Engineering》：据说是近年关于可观测领域相对全面的书
+- [ ]《Systems Performance: Enterprise and the Cloud》：性能之巅第二版，得好好学学
+- [ ]《Dive into Refactoring》： 重构方面的书
+- [ ]《stop reading news》
+- [ ]《Queueing theory in Action》：排队理论，工作中队列的使用无处不在，需要学习下
 
 ### 预读
-- [ ]《Programming Rust》：学习下最先进的Rust吧
 - [ ]《Building Event Driven Microservice》
-- [ ]《Dive into Refactoring》： 重构方面的书
-- [ ]《Queueing theory in Action》：排队理论，工作中队列的使用无处不在，需要学习下
+- [ ]《Programming Rust》：学习下最先进的Rust吧
 
 ### 已读
 - [x]《Real-Time Analytics Techniques to Analyze》：70%
