@@ -23,13 +23,13 @@ hidemeta: true
 
 ### 已读
 - [x]《Real-Time Analytics Techniques to Analyze》：70%
-> 介绍了流式系统的常见设计和考虑，还是不错的，对设计监控数据链路很有帮助
+> 介绍了流式系统的常见设计和考虑，还是不错的，对我设计监控数据链路有帮助
 
 - [x]《Kubernetes In Action》：100%
-> 挺不错的一本书，Kubernetes的东西基本都涵盖了，其中的流程图有助于理解各组件的工作机制
+> 挺不错的一本书，Kubernetes的东西基本都涵盖了，其中的各种流程图有助于理解各组件的工作机制
 
 - [x]《Designing Data Intensive Applications》：200%
-> 读了两遍，强烈推荐，尤其是第一部分和第二部分。读完之后, 能对现如今的各种分布式数据组件的有更深的理解，配合Mit-8.624食用更佳
+> 读了两遍，强烈推荐，尤其是第一部分和第二部分。读完之后, 能对现如今的各种分布式数据组件的有更深的理解，配合Mit-6.824食用更佳
 
 - [x]《Computer.Systems.A.Programmers.Perspective.3rd.Global.Edition.2015.7-csapp》: 45%
 > 主要看了CPU部分。以更为通俗易懂、诙谐的方式讲解操作系统，尤其是每章之后的教授问答环节。不过感觉还是作为教科书的目的编写的
