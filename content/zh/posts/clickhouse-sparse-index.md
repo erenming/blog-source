@@ -9,7 +9,7 @@ Tags: [ClickHouse]
 
 问个问题，如何优化一条SQL语句？我们首先想到的肯定是建索引。对于ClickHouse也不例外，尤其是稀疏主键索引（类似传统数据库中的主键索引）对性能的影响非常大。在下文中，我将结合例子对稀疏主键索引进行详细解读。
 
-> 注：本文内容大量参考[官方文档](https://clickhouse.com/docs/en/guides/improving-query-performance)，如果有余力，强烈建议先行阅读
+> 注：本文内容主要参考[官方文档](https://clickhouse.com/docs/en/guides/improving-query-performance)，如果有余力，强烈建议先行阅读
 
 # 数据准备
 
@@ -40,7 +40,7 @@ optimize table cpu_ts final ;
 cat example/output.csv |clickhouse-client -d test -q 'INSERT into cpu FORMAT CSV'
 ```
 
-> - [output.csv]()是时序数据样本，时间间隔为1秒，包含了从2022-01-01 08:00:00到2022-01-15 07:59:59一共1209600条记录
+> - [output.csv](https://github.com/erenming/data-pool/blob/main/data/output.tar.gz)是时序数据样本，时间间隔为1秒，包含了从2022-01-01 08:00:00到2022-01-15 07:59:59一共1209600条记录
 >
 > - [optimize table](https://clickhouse.com/docs/en/sql-reference/statements/optimize/) 会强制进行merge之类的操作，使其达到最终状态
 
@@ -234,7 +234,7 @@ EXPLAIN indexes = 1 select ts, avg(usage_user) from cpu_ts where timestamp > '20
 
 不过实际的使用场景中，由于PRIMARY KEY一旦定义就没法更改了，而实际的查询方式又往往是变化无常的。因此单靠稀疏索引有时无法满足实际需求。
 
-ClickHouse为此额外提供了两种方案：一种是通过定义新的PRIMARY KEY，并通过创建新表或物化表之类来重建；而另外一种则是类似传统二级索引的机制叫做**跳数索引**来处理。这些我将在后序文章中进行介绍
+ClickHouse为此额外提供了两种方案：一种是通过定义新的PRIMARY KEY，并通过创建新表或物化表之类来重建；而另外一种则是类似传统二级索引的机制叫做**跳数索引**来处理，这些我将在后序文章中进行介绍:)
 
 # 参考
 
