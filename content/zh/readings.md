@@ -11,8 +11,8 @@ hidemeta: true
 #### 22.06-22.12
 - [x]《知识变现》：技术人还是看看，学习下如何提升影响力
 - [x]《Observability Engineering》：关于可观测领域比较全面的书了，从业者可重点关注第1、2、4章节
-- [ ]《stop reading news》：这年头新闻确实太多，浪费时间且过度焦虑
-- [ ]《Systems Performance: Enterprise and the Cloud》：性能之巅第二版，得好好学学
+- [x]《stop reading news》：确实很有道理，这年头新闻量与日俱增，浪费时间且易过度焦虑
+- [ ]《Systems Performance: Enterprise and the Cloud》：性能之巅第二版，得好好学学了
 - [ ]《Dive into Refactoring》： 重构方面的书
 - [ ]《Queueing theory in Action》：排队理论，工作中队列的使用无处不在，需要学习下
 
