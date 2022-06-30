@@ -31,7 +31,7 @@ hidemeta: true
 - [x]《Designing Data Intensive Applications》：200%
 > 读了两遍，强烈推荐，尤其是第一部分和第二部分。读完之后, 能对现如今的各种分布式数据组件的有更深的理解，配合Mit-6.824食用更佳
 
-- [x]《Computer.Systems.A.Programmers.Perspective.3rd.Global.Edition.2015.7-csapp》: 45%
+- [x]《Operating Systems: Three Easy Pieces》: 45%
 > 主要看了CPU部分。以更为通俗易懂、诙谐的方式讲解操作系统，尤其是每章之后的教授问答环节。不过感觉还是作为教科书的目的编写的
 
 - [x]《GO专家编程》：30%
