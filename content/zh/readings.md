@@ -12,13 +12,15 @@ hidemeta: true
 - [x]《知识变现》：技术人还是看看，学习下如何提升影响力
 - [x]《Observability Engineering》：关于可观测领域比较全面的书了，从业者可重点关注第1、2、4章节
 - [x]《stop reading news》：确实很有道理，这年头新闻量与日俱增，浪费时间且易过度焦虑
-- [ ]《Systems Performance: Enterprise and the Cloud》：性能之巅第二版，得好好学学了
+- [ ]《Apache Kafka 实战》：据说还不错，我工作中Kafka用的也比较多，需要加强下
+- [ ]《ClickHouse原理解析与应用实践》：ClickHouse需要再深入学习下，中文版好读:P
+- [ ]《Systems Performance: Enterprise and the Cloud》：性能之巅第二版，好好看看（30%）
 - [ ]《Dive into Refactoring》： 重构方面的书
-- [ ]《Queueing theory in Action》：排队理论，工作中队列的使用无处不在，需要学习下
 
 ### 预读
 - [ ]《Building Event Driven Microservice》
 - [ ]《Programming Rust》：学习下最先进的Rust吧
+- [ ]《Queueing theory in Action》：排队理论，工作中队列的使用无处不在，需要学习下
 
 
 ### 已读
