@@ -31,7 +31,7 @@ CREATE TABLE cpu
 )
 ENGINE = MergeTree() PRIMARY KEY tuple();
 
-optimize table cpu_ts final ;
+optimize table cpu final ;
 ```
 
 并将本地的样本数据导入：
@@ -89,7 +89,7 @@ CREATE TABLE cpu_ts
 )
 ENGINE = MergeTree()
 PRIMARY KEY (timestamp)
-ORDER BY (timestamp, hostname);
+ORDER BY (timestamp);
 
 -- insert data from cpu
 insert into cpu_ts select * from cpu;
