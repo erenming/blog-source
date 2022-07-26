@@ -13,7 +13,7 @@ hidemeta: true
 - [x]《Observability Engineering》：关于可观测领域比较全面的书了，从业者可重点关注第1、2、4章节
 - [x]《stop reading news》：确实很有道理，这年头新闻量与日俱增，浪费时间且易过度焦虑
 - [ ]《深入理解Kafka：核心设计与实践原理》：工作中Kafka用的也比较多，加强下
-- [ ]《ClickHouse原理解析与应用实践》：ClickHouse需要再深入学习下，中文版好读:P
+- [x ]《ClickHouse原理解析与应用实践》：50%主要看了实现原理部分，讲的还是比较通俗易懂的，值得一读
 - [ ]《Systems Performance: Enterprise and the Cloud》：性能之巅第二版，好好看看（30%）
 - [ ]《Dive into Refactoring》： 重构方面的书
 
