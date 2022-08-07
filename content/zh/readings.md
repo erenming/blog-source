@@ -14,7 +14,7 @@ hidemeta: true
 - [x]《stop reading news》：确实很有道理，这年头新闻量与日俱增，浪费时间且易过度焦虑
 - [x ]《深入理解Kafka：核心设计与实践原理 第二版》：工作中常用Kafka，讲得还不错，有理论有实操（60%）
 - [x ]《ClickHouse原理解析与应用实践》：主要看了实现原理部分，讲的还是比较通俗易懂的，值得一读（50%）
-- [ ]《Systems Performance: Enterprise and the Cloud》：性能之巅第二版，好好看看
+- [ ]《Systems Performance: Enterprise and the Cloud》：性能之巅第二版，[真]大头书，快速过一遍，后续作为工具书
 - [ ]《Dive into Refactoring》： 重构方面的书
 
 ### 预读
