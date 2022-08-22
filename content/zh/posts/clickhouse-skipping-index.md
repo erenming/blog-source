@@ -2,6 +2,7 @@
 title: "ClickHouse跳数索引解读"
 date: 2022-07-26T23:20:05+08:00
 draft: false
+Tags: [Clickhouse]
 ---
 
 在[ClickHouse稀疏索引原理解读](https://erenming.github.io/posts/clickhouse-sparse-index/)文章中，我们通过设置合理的稀疏主键索引，极大地优化了通用场景下的查询性能。然而，我们也发现，当我们想通过别的列（标签）进行过滤时，由于未能命中稀疏索引，就变成了全表扫描。

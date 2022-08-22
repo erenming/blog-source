@@ -1,7 +1,8 @@
 ---
 title: "Clickhouse MergeTree解读"
-date: 2022-08-01T23:21:05+08:00
-draft: true
+date: 2022-08-22T23:21:05+08:00
+draft: false
+Tags: [Clickhouse]
 ---
 
 在众多的ClickHouse表引擎中，当属**MergeTree（合并树）**最为常用也最为完备，适用于中绝大部分场景，因此搞懂**MergeTree**对与理解ClickHouse至关重要！
