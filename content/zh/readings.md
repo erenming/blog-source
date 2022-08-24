@@ -15,7 +15,7 @@ hidemeta: true
 - [x]《深入理解Kafka：核心设计与实践原理 第二版》：工作中常用Kafka，讲得还不错，有理论有实操（60%）
 - [x]《ClickHouse原理解析与应用实践》：主要看了实现原理部分，讲的还是比较通俗易懂的，值得一读（50%）
 - [x]《Systems Performance: Enterprise and the Cloud》：性能之巅第二版，[真]大头书，重要读了概念部分，实操部分待日后实践的时候再细读(60%)
-- [ ]《Streaming Processing with Apache Flink》： 工作中有用到，深入学习下
+- [ ]《Streaming Processing with Apache Flink》： 工作中用到了，深入学习下
 - [ ]《重构：第二版》：重构方面的经典书
 - [ ]《Building Event Driven Microservice》
 
