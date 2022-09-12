@@ -11,7 +11,8 @@ hidemeta: true
 
 我的座右铭是**Keep It Simple, Stupid**，没错，就是大名鼎鼎的KISS原则啦！
 
-我是一名软件工程师，Go是我最喜欢的开发语言，我专注于**可观测性**，**云原生**领域
+
+我是一名软件工程师，Go是我最喜欢的开发语言，专注于Cloud Native, Observability, Backend
 
 最后，欢迎与我联系，聊啥都行 :P
 
