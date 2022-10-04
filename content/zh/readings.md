@@ -18,7 +18,7 @@ hidemeta: true
 - [x]《Streaming Processing with Apache Flink》： 快速过了一遍，后续深度使用的时候再回头看看
 - [x]《如何阅读一本》：完全颠覆了我的阅读观，从前阅读效率真的是太低了，强烈推荐！（100%）
 - [x]《重构：第二版》：略读。最重要的点：小步重构、持续集成
-- [ ]《What is eBPF》
+- [x]《What is eBPF》：略读。eBPF的由来、使用以及应用常见简介
 
 ### 预读
 - [ ]《Programming Rust》：学习下最先进的Rust吧
