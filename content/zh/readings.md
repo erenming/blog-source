@@ -16,8 +16,9 @@ hidemeta: true
 - [x]《ClickHouse原理解析与应用实践》：主要看了实现原理部分，讲的还是比较通俗易懂的，值得一读（50%）
 - [x]《Systems Performance: Enterprise and the Cloud》：性能之巅第二版，[真]大头书，重要读了概念部分，实操部分待日后实践的时候再细读(60%)
 - [x]《Streaming Processing with Apache Flink》： 快速过了一遍，后续深度使用的时候再回头看看
-- [ ]《如何阅读一本》：被推荐读一读，正好审视下目前的阅读方法
-- [ ]《重构：第二版》：重构方面的经典
+- [x]《如何阅读一本》：完全颠覆了我的阅读观，从前阅读效率真的是太低了，强烈推荐！（100%）
+- [x]《重构：第二版》：略读。最重要的点：小步重构、持续集成
+- [ ]《What is eBPF》
 
 ### 预读
 - [ ]《Programming Rust》：学习下最先进的Rust吧
