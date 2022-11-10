@@ -20,7 +20,7 @@ hidemeta: true
 - [x]《重构：第二版》：略读。最重要的点：小步重构、持续集成
 - [x]《What is eBPF》：略读。eBPF的由来、使用以及应用常见简介
 - [x]《为什么中国人勤劳却不富有》：略读。介绍了中国经济高速发展的原因及所面临的机遇与困难，用勤劳来对冲制度成本终究不是长久之计!
-- [ ]《100 Go Mistakes and How to Avoid Them》：查漏补缺下:)
+- [x]《100 Go Mistakes and How to Avoid Them》：想不到大道至简的Go也有这么多细节，其中至少有50%的内容刷新了我的认知，非常适合有一定Go使用经验的程序员进一步提升自己
 
 ### 预读
 - [ ]《Programming Rust》：打算学习下最先进的Rust
