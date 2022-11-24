@@ -21,7 +21,7 @@ Tags: [Algorithm]
 
 此外，我们需要特别**注意细节**，因此编写中应当尽量使用`else if`而非`else`，力求覆盖到每种case
 
-# 框架
+# 解题框架
 
 ```go
 func search(nums []int, target int) int {
