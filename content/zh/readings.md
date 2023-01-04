@@ -8,6 +8,11 @@ hidemeta: true
 仅以记录我在读、已读、预读之书。
 
 ### 在读
+#### 23.01-23.04
+- [ ]《认知觉醒》 
+- [ ]《凤凰架构》 
+- [ ]《Queueing theory in Action》：排队理论，工作中队列的使用无处不在，需要学习下
+
 #### 22.06-22.12
 - [x]《知识变现》：技术人还是看看，学习下如何提升影响力
 - [x]《Observability Engineering》：关于可观测领域比较全面的书了，从业者可重点关注第1、2、4章节
@@ -21,12 +26,6 @@ hidemeta: true
 - [x]《What is eBPF》：略读。eBPF的由来、使用以及应用常见简介
 - [x]《为什么中国人勤劳却不富有》：略读。介绍了中国经济高速发展的原因及所面临的机遇与困难，用勤劳来对冲制度成本终究不是长久之计!
 - [x]《100 Go Mistakes and How to Avoid Them》：想不到大道至简的Go也有这么多细节，其中至少有50%的内容刷新了我的认知，非常适合有一定Go使用经验的程序员进一步提升自己
-- [ ]《凤凰架构》 
-
-### 预读
-- [ ]《Programming Rust》：打算学习下最先进的Rust
-- [ ]《Queueing theory in Action》：排队理论，工作中队列的使用无处不在，需要学习下
-
 
 ### 已读
 - [x]《Real-Time Analytics Techniques to Analyze》：70%
