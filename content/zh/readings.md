@@ -9,7 +9,8 @@ hidemeta: true
 
 ### 在读
 #### 23.01-23.04
-- [ ]《认知觉醒》 
+- [x]《认知觉醒》：认知科学的入门吧，读了之后，降低了焦虑与不安，充实起来
+- [ ]《BPF Performance Tools》：学一下BPF、eBPF
 - [ ]《凤凰架构》 
 - [ ]《Queueing theory in Action》：排队理论，工作中队列的使用无处不在，需要学习下
 
