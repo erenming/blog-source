@@ -1,6 +1,6 @@
 ---
 title: "ClickHouse跳数索引解读"
-date: 2022-07-26T23:20:05+08:00
+date: 2022-10-26T23:20:05+08:00
 draft: false
 Tags: [Clickhouse]
 ---
