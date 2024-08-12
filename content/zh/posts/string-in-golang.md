@@ -18,7 +18,7 @@ type StringHeader struct {
 ```
 例如针对字符串`"你好"`，其在内存中的表示如下图所示：
 ![nihao](https://blog-1300816757.cos.ap-shanghai.myqcloud.com/string-in-golang/nihao.png)
-Go的源文件默认使用UTF-8编码，所有的字符串字面量一般也是UTF-8编码的，故这里的`你`编码为`\xe4\xbd\xa0`，`好`编码为`\xe5\xa5\xbd`。UTF-8编码不是我们讨论的重点，具体可参考[这篇博客]([https://chorer.github.io/2019/09/16/CB-%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9Fcp1/](https://chorer.github.io/2019/09/16/CB-深入理解计算机系统cp1/))。
+Go的源文件默认使用UTF-8编码，所有的字符串字面量一般也是UTF-8编码的，故这里的`你`编码为`\xe4\xbd\xa0`，`好`编码为`\xe5\xa5\xbd`。UTF-8编码不是我们讨论的重点，具体可参考[这篇博客](https://chorer.github.io/2019/09/16/CB-深入理解计算机系统cp1/)。
 
 这里我们运行下述代码
 

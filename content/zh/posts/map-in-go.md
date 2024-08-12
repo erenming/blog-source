@@ -110,7 +110,7 @@ bucketloop:
 }
 ```
 
-首先，Go通过对应类型的`alg.hash`计算得到hash值（[各种类型的hash&equal函数定义](!https://github.com/golang/go/blob/master/src/runtime/alg.go)），取后B位作为buckets数组的下标(实际上为取余)，取高8位作为tophash的下标。
+首先，Go通过对应类型的`alg.hash`计算得到hash值（[各种类型的hash&equal函数定义](https://github.com/golang/go/blob/master/src/runtime/alg.go)），取后B位作为buckets数组的下标(实际上为取余)，取高8位作为tophash的下标。
 
 然后，通过一个嵌套循环查找目标key：外层循环是遍历一个`bmap`单链表，它们通过`overflow`指针相连；内层循环则遍历tophash数组，逐个比较，当匹配成功时，则计算得到实际key的地址，比较两者，成功则返回。如下图所示
 
@@ -120,7 +120,7 @@ bucketloop:
 
 1. 使用tophash数组，作为索引，用以判断key是否存在该bmap中，若确实存在，再使用较为耗时的比较算法判断key是否相等。
 
-除了查找操作，map的插入、删除以及扩容操作也十分值得学习，大家可以去查阅相关[源码](!https://github.com/golang/go/blob/master/src/runtime/map.go)
+除了查找操作，map的插入、删除以及扩容操作也十分值得学习，大家可以去查阅相关[源码](https://github.com/golang/go/blob/master/src/runtime/map.go)
 
 
 
