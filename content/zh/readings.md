@@ -8,11 +8,17 @@ hidemeta: true
 仅以记录我在读、已读、预读之书。
 
 ### 在读
+
+#### 24年
+
+- [ ] 《Queueing theory in Action》：排队理论，队列的使用无处不在，需要学习下
+- [ ] 《凤凰架构》 ：浅读一下
+- [ ] 《C Primer Plus, 6th Edition (Stephen Prata) 》：写ebpf用
+- [x] 《Learning eBPF (Liz Rice) (Z-Library)》 `90%`：详细介绍eBPF相关理论和实践，值得一读
+
 #### 23.01-23.04
 - [x]《认知觉醒》：认知科学的入门吧，读了之后，降低了焦虑与不安，充实起来
-- [ ]《BPF Performance Tools》：学一下BPF、eBPF
-- [ ]《凤凰架构》 
-- [ ]《Queueing theory in Action》：排队理论，工作中队列的使用无处不在，需要学习下
+- [x ]《BPF Performance Tools》：学一下BPF、eBPF
 
 #### 22.06-22.12
 - [x]《知识变现》：技术人还是看看，学习下如何提升影响力
