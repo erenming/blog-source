@@ -106,8 +106,6 @@ params:
   socialIcons: # optional
     - name: github
       url: https://github.com/erenming
-    - name: medium
-      url: https://medium.com/@erenming
     - name: email
       url: erenming233@gmail.com
 
