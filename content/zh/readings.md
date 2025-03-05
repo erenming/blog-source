@@ -8,11 +8,12 @@ hidemeta: true
 仅以记录我在读、已读、预读之书。
 
 #### 25年
-- [ ] 《Queueing theory in Action》：排队理论，队列的使用无处不在，需要学习下
-- [ ] 《Learn Concurrent Programming with Go (James Cutajar)》：并发编程中，还是会经常遇到死锁和性能问题，再加深下理解
+- [ ] 《Queueing theory in Action》
+- [ ] 《凤凰架构》
+- [ ] 《System Design Interview - An Insider’s Guide》
+- [x] 《Learn Concurrent Programming with Go (James Cutajar)》：介绍了Go并发编程中的常见问题、编程范式和解决规避方法
 
 #### 24年
-- [10%] 《凤凰架构》 ：浅读一下
 - [10%] 《C Primer Plus, 6th Edition (Stephen Prata) 》：写ebpf用
 - [x] 《Learning eBPF (Liz Rice) (Z-Library)》 `90%`：详细介绍eBPF相关理论和实践，值得一读
 
